@@ -383,6 +383,16 @@ describe('issues', function () {
       .then(done, done);
   });
 
+  it('should support external nested references', function (done) {
+    Sway.create({
+      definition: helpers.swaggerDocNestedRefsPath
+    })
+      .then(function (api) {
+        assert.ok(Object.keys(api.references).length == 0);
+      })
+      .then(done, done);
+  });
+
   describe('should handle mixed-case headers for validation (Issue 67)', function () {
     it('parameter processing', function () {
       var parameterValue = swaggerApi.getOperation('/pet/{petId}', 'DELETE').getParameter('api_key').getValue({
