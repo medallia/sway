@@ -3,6 +3,10 @@ swagger: "2.0"
 info:
   title: test
   version: '0.0.0'
+responses:
+  500:
+    schema:
+      $ref: "#/definitions/e"
 paths: {}
 definitions:
   y:
@@ -16,4 +20,16 @@ definitions:
     type: object
     properties:
       name:
+        type: string
+  t:
+    type: string
+    enum:
+    - unauthorized
+    - forbidden
+  e:
+    type: object
+    properties:
+      error_type:
+        $ref: "#/definitions/t"
+      message:
         type: string
