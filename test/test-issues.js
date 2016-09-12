@@ -388,9 +388,7 @@ describe('issues', function () {
       definition: helpers.swaggerDocNestedRefsPath
     })
       .then(function (api) {
-        var entry = api.references['#/definitions/x/properties/children/items'];
-
-        assert.ok(typeof entry.missing === 'undefined');
+        assert.ok(Object.keys(api.references).length == 0);
       })
       .then(done, done);
   });

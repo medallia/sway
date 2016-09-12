@@ -26,7 +26,7 @@
 
 var _ = require('lodash');
 var helpers = require('./lib/helpers');
-var JsonRefs = require('json-refs');
+var JsonRefs = require('@m/json-refs');
 var SwaggerApi = require('./lib/types/api');
 var YAML = require('js-yaml');
 

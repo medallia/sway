@@ -29,7 +29,7 @@
 var _ = require('lodash');
 var assert = require('assert');
 var helpers = require('./helpers');
-var JsonRefs = require('json-refs');
+var JsonRefs = require('@m/json-refs');
 var supportedHttpMethods = require('swagger-methods');
 var Sway = helpers.getSway();
 
