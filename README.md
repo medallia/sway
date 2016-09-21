@@ -7,6 +7,9 @@ Sway will always be built around the latest stable release of Swagger, which hap
 This means that its APIs and object model will be specific to that version of Swagger and supporting any other versions
 of Swagger will require a conversion step prior to using Sway.
 
+## Collaboration guidelines for Medallia's fork
+[Read here](https://github.medallia.com/medallia/api-codegen#collaboration-guidelines).
+
 ## Project Badges
 
 * Build status: [![Build Status](https://travis-ci.org/apigee-127/sway.svg)](https://travis-ci.org/apigee-127/sway)
