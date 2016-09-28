@@ -8,7 +8,7 @@ This means that its APIs and object model will be specific to that version of Sw
 of Swagger will require a conversion step prior to using Sway.
 
 ## Collaboration guidelines for Medallia's fork
-[Read here](https://github.medallia.com/medallia/api-codegen#collaboration-guidelines).
+[Read here](https://github.com/medallia/swagger-codegen#collaboration-guidelines-for-medallias-fork).
 
 ## Project Badges
 
