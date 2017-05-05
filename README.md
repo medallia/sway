@@ -1,3 +1,6 @@
+# WARNING: Don't use this repo. 
+# Use https://github.medallia.com/medallia/sway instead
+
 A library that simplifies [Swagger][swagger] integrations.  This library handles the minutiae of loading Swagger
 documents *(local and remote)*, resolving references *(local, remote)*, building an object model and providing you with
 a rich set of APIs for things like Swagger document validation, request/response validation, etc.  For more details on
